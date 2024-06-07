@@ -1,0 +1,24 @@
+.empty{
+    text-align: center;
+    margin: 8.5vmax;
+}
+.cartList{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+}
+.cartList img{
+    height: 100px;
+    width: 100px;
+}
+.cartList div{
+    padding-left: 20px;
+}
+.cart{
+    margin-bottom: 5vmax;
+}
+.order{
+    padding: 1vmax 3vmax;
+    font-size: 20px;
+    border-radius: 0;
+}

@@ -4,21 +4,12 @@
 }
 .cartList{
     list-style: none;
-    display: flex;
-    margin-top: 30px;
+    margin: 2vmax;
+    /*border-top: 1px solid rgba(0, 0, 0, 0.205);*/
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    padding-bottom: 2vmax;
 }
 .cartList img{
     height: 100px;
     width: 100px;
-}
-.cartList div{
-    padding-left: 20px;
-}
-.cart{
-    margin-bottom: 5vmax;
-}
-.order{
-    padding: 1vmax 3vmax;
-    font-size: 20px;
-    border-radius: 0;
 }

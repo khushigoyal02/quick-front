@@ -7,6 +7,9 @@ nav{
     background-color: #eb4034;
     padding: 20px;
 }
+nav h1{
+    margin-left: 5vmax;
+}
 
 .nav-item:hover{
     font-weight: bold;
@@ -24,6 +27,11 @@ button{
     outline: none;
 }
 
-button:hover {
+button:hover:not(.change){
     background-color: #eb4034;
 }
+@media only screen and (max-width: 480px) {
+    nav h1{
+        margin-left: 0;
+    }
+  }

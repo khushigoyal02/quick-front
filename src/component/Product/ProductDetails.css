@@ -1,22 +1,3 @@
-/*.productDetails {
-    background-color: rgb(255, 255, 255);
-    width: 100vw;
-    max-width: 100%;
-    padding: 6vmax;
-    box-sizing: border-box;
-    display: flex;
-  }
-  
-  .productDetails > div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2vmax;
-    box-sizing: border-box;
-    border: 1px solid white;
-  }*/
   .productDetails{
     padding: 5vmax;
     width: 99vw;
@@ -57,7 +38,6 @@
   
   .detailsBlock-4 {
     color: rgba(0, 0, 0, 0.534);
-    /*font: 300 0.9vmax sans-serif;*/
     font-family: sans-serif;
     font-size: 1vmax;
     border-top: 1px solid rgba(0, 0, 0, 0.205);
